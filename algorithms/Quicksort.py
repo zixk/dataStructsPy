@@ -6,8 +6,6 @@ def quicksort(array:[int], left: int, right: int):
     if(left >= right):
         return
     pivot = array[int((left+right)/2)]
-    print(pivot)
-    print(array)
     index = partition(array, left, right, pivot)
     quicksort(array, left, index-1)
     quicksort(array, index, right)
