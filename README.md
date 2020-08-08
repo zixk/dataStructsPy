@@ -1,2 +1,2 @@
-# dataStructsPy
-Implementation of Basic Data Structures in Python
+# Python Basics
+Implementation of Basic Data Structures, Algorithms in Python
