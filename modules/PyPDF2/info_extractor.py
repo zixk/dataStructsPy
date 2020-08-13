@@ -6,7 +6,8 @@ def extract_information(pdf_path):
         pdf = PdfFileReader(f)
         information = pdf.getDocumentInfo()
         number_of_pages = pdf.getNumPages()
-
+        metadata = pdf.getXmpMetadata()
+    
     txt = f"""
     Information about {pdf_path}: 
 
