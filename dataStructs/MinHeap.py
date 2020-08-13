@@ -1,7 +1,7 @@
 class MinHeap:
     def __init__(self):
         self.size: int = 0
-        self.heap: List[int] = []
+        self.heap: [int] = []
 
     def peek(self) -> int:
         if(self.size == 0):
