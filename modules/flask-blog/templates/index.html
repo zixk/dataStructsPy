@@ -1,0 +1,14 @@
+{% extends "layout.html" %} {% block title %}Index{% endblock %} {% block head%}
+{{ super() }} {% endblock %} {% block content %}
+
+<h1 class="title">
+  Welcome to the Python Blog.
+</h1>
+<h2>Recent Posts</h2>
+<ul class="post-list">
+  {% for post in post_names %}
+  <li><a href="posts/{{post}}.html">{{post}}</a></li>
+  {% endfor %}
+</ul>
+
+{% endblock %}

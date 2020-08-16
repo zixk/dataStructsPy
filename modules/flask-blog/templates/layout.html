@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <title>{% block title %}{% endblock %} - Python Blog</title>
+    {% endblock %}
+  </head>
+  <body>
+    <div id="header">
+      {% block header %}
+      <nav>
+        <div class="brand">
+          <a href="/">Python Blog</a>
+        </div>
+        <div class="links">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+        </div>
+      </nav>
+      {% endblock %}
+    </div>
+    <main id="content">{% block content %}{% endblock %}</main>
+    <footer id="footer">
+      {% block footer %}
+      &copy; 2020 Python Blog</a>.
+      {% endblock %}
+    </footer>
+  </body>
+</html>
