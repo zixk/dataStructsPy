@@ -1,4 +1,4 @@
-from ..interfaces.sofa import Sofa
+from interfaces.sofa import Sofa
 
 class RedwoodSofa(Sofa):
 

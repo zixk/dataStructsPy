@@ -1,6 +1,6 @@
-from ..interfaces.furniture_factory import FurnitureFactory
-from mahagony_chair import MahagonyChair
-from mahagony_sofa import MahagonySofa
+from interfaces.furniture_factory import FurnitureFactory
+from .mahagony_chair import MahagonyChair
+from .mahagony_sofa import MahagonySofa
 
 class MahagonyFurnitureFactory(FurnitureFactory):
 

@@ -1,6 +1,6 @@
-from ..interfaces.furniture_factory import FurnitureFactory
-from redwood_chair import RedwoodChair
-from redwood_sofa import RedwoodSofa
+from interfaces.furniture_factory import FurnitureFactory
+from .redwood_chair import RedwoodChair
+from .redwood_sofa import RedwoodSofa
 
 class RedwoodFurnitureFactory(FurnitureFactory):
 

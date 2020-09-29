@@ -1,4 +1,4 @@
-from ..interfaces.chair import Chair
+from interfaces.chair import Chair
 
 class RedwoodChair(Chair):
 
